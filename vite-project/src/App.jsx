@@ -17,9 +17,10 @@ function App() {
 
   return (
     <>
-      <h1>Diva Gupta</h1>
+      <h1 className="bg-green-300">Diva Gupta</h1 >
       <h3>Couter Value : {counter} </h3>
       <button
+        className="bg-black-500 color-white"
         onClick={addValue}
       >Add Value</button>
       <br />
